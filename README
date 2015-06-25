@@ -1,0 +1,13 @@
+A roller coaster simulator. Use points from data.txt to create 
+a real time render roller coaster. The curves of the roller coaster
+is Bezier curve that calculated from B-spline curve. and then 
+subdivide the curves to smoothing the curves.
+
+Hotkeys:
+R: Start riding the roller coaster
+S: Surround view of the roller coaster
+P: Different render view of the roller coaster (Normal/Dots/Framework)
+
+Notice:
+change the opengl link library to own perfrom when compile the program.
+Ex. on windows using freeglut:  -lfreeglut -lopengl32 -lglu32
